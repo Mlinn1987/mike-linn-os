@@ -1,0 +1,38 @@
+# Mike OS Notion sources. Level 1 (internal): IDs only, NO tokens or keys.
+# Source: docs/handoffs/2026-10-23-chatgpt-architecture-handoff.md, section 4.
+# Database IDs and data-source IDs are different; use the one the API call needs.
+
+timezone: America/Los_Angeles
+constitution_version: v0.5
+
+stores:
+  projects:
+    database_id: 39c595087f9444d0b973d07e94d92e68
+    data_source_id: b0a1d720-0fc3-40b2-8347-db095ea329f9
+  knowledge_and_entities:
+    database_id: 29c421b2e5ca46e795cbbbcb83e4b7b5
+    data_source_id: 4965855b-5e82-4d51-9e87-d001ab7b5fee
+  work_queue:
+    database_id: 7c9cdf4488c64e66b774ecffe3c6ae41
+    data_source_id: 93c79a4b-42b1-4d1d-ac7a-88ae4a170b08
+  decisions_and_activity:
+    database_id: 03d71bc67f73470183e88fbc5fdd388d
+    data_source_id: d71bc75b-6af7-4a8d-ad2f-93b16ef30489
+  session_recaps:
+    database_id: ec509c2f23fe4b149eb15f7463b7c549
+    data_source_id: d934eadd-280b-4235-a624-644671cdb12b
+  running_to_do_list:
+    database_id: 97cac64a7bde4824ba5515dfa3bb9880
+    data_source_id: 4b4510d6-17b3-4b7c-954c-59b9b4f81f91
+  llm_task_log:
+    database_id: 165e3c822c854f868ff9cf25c25a1b7a
+    data_source_id: 2897c4aa-ad1c-494e-9cf6-902c29792c2d
+  skills_registry:
+    database_id: af3faa0db7f0438eaa25ed599f1437bf
+    data_source_id: 021f5112-1d05-45ed-8b2d-effd45b0374a
+  cross_model_qa:
+    database_id: efc3ef9c6dac4047855fa9c9b2b087dc
+    data_source_id: f5990036-b108-4dc5-8e76-7202081ab55e
+
+key_records:
+  mike_os_v1_project: 3d2d5ca6-aed2-816c-9f14-d613bbccde30

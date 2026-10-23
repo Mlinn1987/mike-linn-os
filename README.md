@@ -23,6 +23,7 @@ Every kind of information has **exactly one primary home**. Any copy elsewhere i
 | `docs/architecture.md` | How the whole system works |
 | `docs/decisions/` | Dated decisions, each marked **Approved** or **Proposal** |
 | `docs/handoffs/` | Handoff documents received from other models, kept as reference |
+| `docs/context-packs/` | One-page project summaries generated from Notion, each with source links |
 | `governance/` | *(coming)* Constitution, protocols and standards, once moved over from Notion |
 | `skills/` | *(coming)* Approved skills and reusable prompts |
 | `config/` | Settings such as Notion database IDs. **Never passwords or keys.** |

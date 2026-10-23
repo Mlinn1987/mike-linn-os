@@ -1,0 +1,30 @@
+# Secrets (Level 3): never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+token*.json
+service-account*.json
+
+# Private local caches and exports (may contain Level 2 data)
+private/
+exports/
+*.local.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node (Wix)
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

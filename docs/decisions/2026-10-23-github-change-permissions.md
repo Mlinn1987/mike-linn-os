@@ -3,7 +3,7 @@
 - **Date:** 2026-10-23
 - **Status:** Approved by Mike in a Claude Code session, 2026-10-23
 - **Proposed by:** Claude (Claude Code)
-- **Notion log:** Not yet recorded in Decisions & Activity
+- **Notion log:** Recorded in Decisions & Activity
 
 ## Decision
 

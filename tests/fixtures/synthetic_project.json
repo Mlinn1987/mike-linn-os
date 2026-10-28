@@ -1,0 +1,50 @@
+{
+  "project": {
+    "id": "aaaa0000000000000000000000000001",
+    "url": "https://www.notion.so/aaaa0000000000000000000000000001",
+    "last_edited": "2026-01-01T10:00:00Z",
+    "properties": {
+      "Name": "Example Launch Plan",
+      "Outcome": "A made-up project used only for tests.",
+      "Current Milestone": "Draft outline approved",
+      "Next Action": "Write the first section",
+      "Operating Manager": "Claude",
+      "Status": "In Progress",
+      "Portfolio": "Active",
+      "Priority": "P2",
+      "Vertical": "Business",
+      "Area": "Creator",
+      "Both Justification": null,
+      "Review Date": null
+    }
+  },
+  "linked": {
+    "decisions": [
+      {
+        "id": "bbbb0000000000000000000000000001",
+        "url": "https://www.notion.so/bbbb0000000000000000000000000001",
+        "last_edited": "2026-01-02T09:00:00Z",
+        "properties": {"Entry": "[Mike] Use the short outline", "Date": "2026-01-02", "Type": "Decision"}
+      }
+    ],
+    "session_recaps": [],
+    "work_queue": [
+      {
+        "id": "cccc0000000000000000000000000001",
+        "url": "https://www.notion.so/cccc0000000000000000000000000001",
+        "last_edited": "2026-01-01T08:00:00Z",
+        "properties": {"Action": "Collect reference links", "Status": "In Progress", "Priority": "P2", "Due": null}
+      }
+    ],
+    "llm_tasks": [],
+    "skills": [
+      {
+        "id": "dddd0000000000000000000000000001",
+        "url": "https://www.notion.so/dddd0000000000000000000000000001",
+        "last_edited": "2026-01-01T07:00:00Z",
+        "properties": {"Skill name": "Example Outline Skill", "Status": "Draft", "Approved Version": null, "Steward": "Claude"}
+      }
+    ],
+    "qa": []
+  }
+}

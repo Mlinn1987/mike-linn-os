@@ -42,7 +42,7 @@ Every kind of information has **exactly one primary home**. Any copy elsewhere i
 
 | Integration | Status |
 |---|---|
-| Notion | Not started — first build target |
+| Notion | Context packs built (read-only). Waiting on a `NOTION_TOKEN` for live API runs. |
 | YouTube | Not started |
 | Wix | Not started |
 | Gemini | Not started |

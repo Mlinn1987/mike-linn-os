@@ -6,7 +6,7 @@
 
 | # | Integration | Status | Why this order |
 |---|---|---|---|
-| 1 | [Notion](notion/) | Not started | Everything else reads from or reports to Notion |
+| 1 | [Notion](notion/) | Context packs built; needs token | Everything else reads from or reports to Notion |
 | 2 | [YouTube](youtube/) | Not started | Core Creator pipeline |
 | 3 | [Gemini](gemini/) | Not started | Video-specialist model for the Creator pipeline |
 | 4 | [Analytics](analytics/) | Not started | Measures results across YouTube and websites |

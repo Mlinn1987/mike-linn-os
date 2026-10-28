@@ -1,7 +1,7 @@
 # Decision: Standing permission for saving changes to this repo
 
 - **Date:** 2026-10-23
-- **Status:** Approved by Mike in a Claude Code session, 2026-10-23
+- **Status:** Superseded on 2026-10-28 by `2026-10-28-act-on-requests.md`
 - **Proposed by:** Claude (Claude Code)
 - **Notion log:** Recorded in Decisions & Activity
 

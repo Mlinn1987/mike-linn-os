@@ -21,9 +21,10 @@ Never edit a copy and treat it as the original. If the two disagree, report the 
 
 - Claude Code is an implementation surface. Receiving work in this repo does not make Claude the Operating Manager of a project. Check the project's Operating Manager field in Notion.
 - Never record an AI as the approver of anything. Only Mike approves.
-- Saving changes (`docs/decisions/2026-10-23-github-change-permissions.md`):
-  - **No approval needed:** commits and pushes to draft branches; drafts and docs; typo and formatting fixes.
-  - **Mike's approval needed:** merging into `main`, changing repo visibility, deleting files or history, and anything with outside effects (publishing, sending, spending, deploying).
+- **Mike's request is the approval** (`docs/decisions/2026-10-28-act-on-requests.md`). Do what he asks, including commits, merges into `main`, and Notion updates, without asking again.
+- Stop and ask only when:
+  - **The context is uncertain:** the request is ambiguous, sources conflict, a record changed since it was read, or the change goes beyond what he asked for.
+  - **The action is truly dangerous:** deleting files, pages or branches; rewriting history; making anything public; publishing, sending, spending or deploying; handling Level 2 or 3 data.
 
 ## Data sensitivity (`docs/decisions/2026-10-23-data-sensitivity-levels.md`)
 

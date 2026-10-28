@@ -42,7 +42,7 @@ Mike assigns one Operating Manager per project, and the other model reviews. Cha
 
 ## Authority
 
-Constitution v0.5 defines four levels: A0 observe, A1 organize facts, A2 reversible internal execution, and A3 consequential external action (closed). Repo-specific permissions are set in `docs/decisions/2026-10-23-github-change-permissions.md`.
+Constitution v0.5 defines four levels: A0 observe, A1 organize facts, A2 reversible internal execution, and A3 consequential external action (closed). For this repo and the Mike OS Notion workspace, Mike's request is the approval. Claude asks only when the context is uncertain or the action is truly dangerous (`docs/decisions/2026-10-28-act-on-requests.md`).
 
 ## Integrations
 

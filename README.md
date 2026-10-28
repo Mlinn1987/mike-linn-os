@@ -36,7 +36,7 @@ Every kind of information has **exactly one primary home**. Any copy elsewhere i
 ## Ground rules
 
 - **Data sensitivity:** follow the four levels in [docs/decisions/2026-10-23-data-sensitivity-levels.md](docs/decisions/2026-10-23-data-sensitivity-levels.md). Health, finances, family details and other Level 2 material stay in Notion. Secrets never go in this repo.
-- **Saving to GitHub:** see [docs/decisions/2026-10-23-github-change-permissions.md](docs/decisions/2026-10-23-github-change-permissions.md).
+- **Permissions:** Claude acts on Mike's requests and asks only when the context is uncertain or the action is truly dangerous. See [docs/decisions/2026-10-28-act-on-requests.md](docs/decisions/2026-10-28-act-on-requests.md).
 
 ## Integration status
 

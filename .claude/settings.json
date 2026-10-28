@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(gh pr *)",
+      "Bash(gh api repos/Mlinn1987/mike-linn-os/*)",
+      "mcp__Notion"
+    ],
+    "ask": [
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git push * --force*)",
+      "Bash(git push * -f*)",
+      "Bash(git push * --delete*)",
+      "Bash(git push * :*)",
+      "Bash(git branch -D*)",
+      "Bash(git reset --hard*)",
+      "Bash(git filter-branch*)",
+      "Bash(rm -rf*)",
+      "mcp__Notion__notion-delete-pages",
+      "mcp__Notion__notion-delete-databases",
+      "mcp__Notion__notion-delete-comment",
+      "mcp__Notion__notion-move-pages"
+    ]
+  }
+}
